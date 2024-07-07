@@ -66,3 +66,8 @@
 .no-posts img{
     width: 450px;
 }
+@media screen and (max-width:598px) {
+    .no-posts img {
+        width: 300px;
+    }
+}
