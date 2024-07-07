@@ -1,0 +1,67 @@
+.post-item-card{
+    width: 450px;
+    height: 250px;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px -4px #8d60e8;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: all .4s linear;
+    background-color: #fff;
+}
+.post-item-card:hover{
+    transform: scale(1.02);
+}
+.post-item-card-title{
+    font-size: 18px;
+}
+.post-item-card-description{
+    font-size: 15px;
+    font-weight: 400;
+}
+.btn-container{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+.btn-container a{
+    text-decoration: none;
+}
+.edit-btn{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    border: 0;
+    width: 90px;
+    height: 35px;
+    background-color: #770fef;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.delete-btn{
+    display: flex;
+    align-items: center;
+    border: 0;
+    width: 100px;
+    height: 35px;
+    background-color: #ef0f56e0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.edit-btn:hover{
+    transform: scale(1.03);
+}
+.delete-btn:hover{
+    transform: scale(1.03);
+}

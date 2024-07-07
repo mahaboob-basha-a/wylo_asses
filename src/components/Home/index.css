@@ -1,0 +1,68 @@
+.home-page{
+    height: calc(100vh - 60px);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #6703da;
+}
+.list-item{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+}
+.nav-bar-two{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    box-shadow: 0px 1px 13px -4px #f1068f;
+    background-color: #f7f7f7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: auto;
+    padding-right: 55px;
+}
+.nav-bar-two a{
+    text-decoration: none;
+}
+.nav-btn-two{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -37px;
+    cursor: pointer;
+    background-color: #f2036b;
+    border: 0;
+    border-radius: 28%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    gap: 4px;
+    transition: all .3s linear;
+
+}
+.nav-btn-two:hover{
+    box-shadow: 0px 0px 15px -5px #000;
+    transform: scale(1.03);
+}
+.no-posts{
+    height: calc(100vh - 50px);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.no-posts img{
+    width: 450px;
+}
